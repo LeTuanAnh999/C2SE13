@@ -1,0 +1,48 @@
+.border-primary {
+    border-color: #00b14f!important;
+}
+.icon-namb{
+    background-color: #00b14f;
+    border-radius: 5px;
+    color: white;
+}
+#react-select-9-placeholder,#react-select-7-placeholder,#react-select-13-placeholder,#react-select-11-placeholder,#react-select-15-placeholder,
+#react-select-17-placeholder,#react-select-37-placeholder,#react-select-4-placeholder,#react-select-5-placeholder,#react-select-6-placeholder,#react-select-8-placeholder{
+   
+        margin-left:0rem !important;
+      
+}
+
+/* .ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    width: 100%;
+} */
+
+.upload-list-inline .ant-upload-list-item {
+    float: left;
+    width: 200px;
+    margin-inline-end: 8px;
+  }
+  
+  .ant-upload-rtl.upload-list-inline .ant-upload-list-item {
+    float: right;
+  }
+  :where(.css-dev-only-do-not-override-fpg3f5).ant-steps .ant-steps-item-process .ant-steps-item-icon 
+{
+    background-color: #00b14f;
+    border-color: #00b14f
+}
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-steps .ant-steps-item-process .ant-steps-item-icon {
+    background-color: #00b14f;
+    border-color: #00b14f
+}
+.pri-button-step{
+    background-color: #00b14f !important;
+    border-color: #00b14f !important;
+    color:white !important;
+
+}
+:where(.css-dev-only-do-not-override-fpg3f5).ant-float-btn-primary .ant-float-btn-body {
+    background-color: #00b14f;
+    transition: background-color 0.2s;
+}

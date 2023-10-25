@@ -1,0 +1,472 @@
+
+.search-div{
+    margin-top:6.6666rem;
+    padding: 0 !important;
+}
+
+
+.banner {
+    background: linear-gradient(90deg,#263238,#00b14f 105.53%);
+    border-radius: 5px 5px 0 0;
+    min-height: 180px;
+    padding: 5px 32px 0;
+    position: relative;
+}
+.banner .content {
+    z-index: 2;
+}
+
+.ml-auto {
+    margin-right: auto;
+}
+.banner .title {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin: initial;
+    margin-bottom: 8px;
+    margin-top: 26px;
+}
+.banner .description {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin: initial;
+    margin-bottom: 18px;
+    width: 90%;
+}
+.banner .label-remote {
+    background: #fff;
+    border-radius: 12px;
+    color: #27ae60;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    margin-right: 14px;
+    padding: 4px 8px;
+}
+.banner .label-remote i {
+    color: #27ae60;
+}
+.banner .image {
+    position: absolute;
+    right: 220px;
+    top: 0;
+    z-index: 1;
+}
+.box-search {
+    padding: 16px 0;
+}
+.box-search #frm-search-job {
+    padding: 0 16px;
+}
+.box-search .form-group.input-data {
+    margin-right: 15px;
+    position: relative;
+}
+
+.box-search .form-group {
+    width: 35%;
+    height: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.box-search .form-group.input-data.category {
+    flex-shrink: 0;
+    width: 190px;
+}
+.box-search .last {
+    margin-right: 0!important;
+}
+.box-search .category.input-data .icon {
+    color: #00b14f;
+}
+
+.box-search .input-data .icon {
+    color: #999;
+    font-weight: 900;
+    left: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+#company-field-advanced, #keyword{
+    padding-left:2.222rem;
+    padding-top: 0.5555rem;
+}
+.box-search .form-group:last-child {
+    margin-left: auto;
+    width: auto;
+}
+.box-search .btn-search-job {
+    background: #00b14f;
+    border-color: #00b14f;
+    border-radius: 3px;
+    color: #fff;
+    height: 40px;
+    margin-left: 16px;
+    outline: none!important;
+    padding: 9px 16px;
+    width: 100%;
+}
+
+.list-job {
+    background: #fff 0 0 no-repeat padding-box;
+}
+.list-top-skill{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+.list-top-skill .item {
+    background: #f4f4f4;
+    border: none;
+    border-radius: 20px;
+    color: #999;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 2px;
+    padding: 10px 16px;
+}
+.list-top-skill label.total {
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: initial;
+    margin-left: 16px;
+    padding: 2px 8px;
+}
+.list-top-skill .item.active, .list-top-skill label.total {
+    background: #4285f4;
+    color: #fff;
+}
+.list-job .job-header {
+    border-bottom: 1px solid #eee;
+    padding: 0 16px 20px;
+}
+.text-highlight, .text-highlight:hover {
+    color: #00b14f;
+}
+.list-job .job-header h2 {
+    font-size: 14px;
+    font-weight: unset;
+}
+.show-important {
+    border-bottom: 1px solid #eee;
+    display: flex;
+    padding: 20px 16px;
+}
+.show-important .option-item-sort {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.show-important .active .first {
+    display: inline-block!important;
+}
+.show-important .active .last, .show-important .first {
+    display: none;
+}
+.show-important .active i {
+    color: #00b14f;
+}
+.show-important .name_sort {
+    cursor: pointer;
+}
+.show-important i {
+    color: #ccc;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.list-job .job-body {
+    padding: 20px 16px;
+}
+.job-list-2 .job-item-2.bg-highlight {
+    background-color: #f2fbf6;
+}
+
+.job-list-2 .job-item-2 {
+    background: #fff 0 0 no-repeat padding-box;
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    padding: 16px;
+    transition: all .2s;
+}
+.job-list-2 .job-item-2 .box-header {
+    display: flex;
+    margin-bottom: 12px;
+}
+.job-list-2 .job-item-2 .box-header .avatar {
+    background-color: #fff;
+    border-radius: 8px;
+    flex-shrink: 0;
+    height: 100px;
+    outline: 1px solid #e9eaec;
+    padding: 8px;
+    width: 100px;
+}
+.job-list-2 .job-item-2 .box-header .body {
+    margin-left: 20px;
+    width: 100%;
+}
+.job-list-2 .job-item-2 .box-header .avatar a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.job-list-2 .job-item-2 .box-header .body .title-block {
+    align-items: baseline;
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.job-list-2 .job-item-2 .box-header .body .company {
+    color: #424e5c;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.job-list-2 .job-item-2 .box-header .body label.deadline {
+    color: #646d79;
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.job-list-2 .job-item-2 .box-job-relevance-job {
+    align-items: center;
+    background: linear-gradient(11deg,#00bf5d,#00907c);
+    border-radius: 4px;
+    color: #fff;
+    display: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    gap: 4px;
+    letter-spacing: .15px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    padding: 2px 6px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.job-list-2 .job-item-2 .box-info {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+.job-list-2 .job-item-2 .box-info .label-content {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+    margin-top: 0;
+}
+
+
+.job-list-2 .job-item-2 .icon-save {
+    align-items: flex-end;
+    display: flex;
+    gap: 8px;
+    margin-left: 24px;
+}
+.job-list-2 .job-item-2 .box-header .body .title a {
+    color: #212f3f;
+    font-size: 17px;
+    font-weight: 700;
+}
+.job-list-2 .job-item-2 .box-info .label-content label {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.job-list-2 .job-item-2 .box-info .label-content i {
+    color: #00b14f;
+    margin-right: 8px;
+}
+.job-list-2 .job-item-2 .box-header .body .title-salary {
+    color: #00b14f;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    white-space: nowrap;
+}
+.job-list-2 .job-item-2 .icon-save .btn.btn-apply-now {
+    align-items: center;
+    background: #00b14f;
+    border-radius: 3px;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    height: 28px;
+    outline: none;
+    padding: 6px 16px;
+}
+.job-list-2 .job-item-2 .icon-save .box-save-job a {
+    align-items: center;
+    background: #e5f7ed;
+    color: #00b14f;
+    display: inline-flex;
+    font-size: 12px;
+    height: 28px;
+    justify-content: center;
+    padding: 0 8px;
+    white-space: nowrap;
+    width: 28px;
+}
+
+.job-body .right-box .interested {
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 85px;
+}
+#company-spotlight {
+    margin-bottom: 16px;
+}
+#company-spotlight .title-spotlight {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: left;
+    text-transform: inherit;
+}
+.spotlight-company {
+    background: #fff 0 0 no-repeat padding-box;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+#company-spotlight .spotlight-info {
+    color: #333;
+    margin: inherit;
+    padding-left: 16px;
+    padding-top: 10px;
+    text-align: left;
+}
+#company-spotlight .job {
+    border-top: 1px solid #eee;
+    font-size: 15px;
+    margin: 0 16px 10px;
+    padding: 5px 0;
+}   
+#company-spotlight .spotlight-count {
+    margin-bottom: 6px;
+}
+
+#company-spotlight .spotlight-count {
+    margin-top: 20px;
+}
+#company-spotlight .spotlight-count .get-more {
+    background: #00b14f 0 0 no-repeat padding-box;
+    border-radius: 3px;
+    color: #fff;
+    padding: 11px 56px;
+}
+#company-spotlight .job .job-name {
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+#company-spotlight .spotlight-info .company-name {
+    margin-bottom: 10px;
+}
+#company-spotlight .spotlight-image .spotlight-cover-wraper {
+    border-top: none;
+    overflow: hidden;
+    padding-top: 0;
+}
+#company-spotlight .spotlight-image .spotlight-cover-wraper img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
+#company-spotlight .spotlight-count a, #company-spotlight .spotlight-info .company-name a {
+    color: #333;
+    text-decoration: none;
+    text-transform: none;
+}
+.text-dark-blue {
+    color: #212f3f;
+}
+.css-1jqq78o-placeholder{
+  margin-left:2rem !important;
+}
+.css-13cymwt-control{
+    min-height:40px !important;
+}
+#top-company-highlight .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    text-align: left;
+    text-transform: inherit;
+}
+#top-company-highlight .item {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.item-hover {
+    box-shadow: -1px 1px 2px rgba(0,0,0,.01);
+    transition: all .3s;
+}
+#top-company-highlight .item .logo {
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+#top-company-highlight .item .info .title {
+    color: #333;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    margin-top:0.5555rem;
+}
+#top-company-highlight .item .info .count {
+    color: #999;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+#btn-timkiemjob{
+    margin-right:1rem;
+}
+#css-1fdsijx-ValueContainer{
+    margin-left:1.22rem
+}
+.css-1fdsijx-ValueContainer {
+    font-size: 12px;
+}
