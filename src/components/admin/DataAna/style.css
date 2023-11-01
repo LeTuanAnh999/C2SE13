@@ -1,0 +1,172 @@
+.box-demand-job{
+    background: rgba(33,47,63,.3);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    transition: .3s;
+}
+.box-demand-job_work-market{
+    margin-bottom: 16px;
+}
+ .work-market_header {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+ .work-market_content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 8px 18px;
+}
+.job-hiring {
+    display: flex;
+    gap: 8px;
+}
+ .job-hiring:nth-child(odd) {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg,rgba(17,215,105,0),#11d769 51.04%,rgba(17,215,105,0));
+    border-right: 1px solid;
+    position: relative;
+}
+.job-hiring span {
+    font-feature-settings: "clig" off,"liga" off;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .175px;
+    line-height: 22px;
+}
+hiring span.quantity {
+    color: #11d769;
+}
+.job-hiring .status {
+    align-items: center;
+    background: rgba(17,215,105,.1);
+    border-radius: 15px;
+    color: #11d769;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    padding: 6px;
+    width: 24px;
+}
+.box-demand-job_work-market .work-market_header span img {
+    width: 24px;
+}
+#bg-ana {
+    background-image:url("./bg_header.webp");
+    border-radius:5px;
+    height:90%;
+}
+.box-demand-job_work-market:after {
+    background: linear-gradient(90deg,rgba(17,215,105,0),#11d769 50%,rgba(17,215,105,0));
+    content: "";
+    display: block;
+    height: 2px;
+    opacity: .6000000238;
+}
+.box-demand-job .header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+ .box-demand-job .header-title {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+.box-demand-job .header img {
+    width: 24px;
+}
+.caption{
+    color:white;
+}
+.box-demand-job .box-select {
+    position: relative;
+}
+#dashboard .block-dashboard {
+    background: linear-gradient(83.78deg,#122235 1.64%,#1aa357 93.62%);
+    border-radius: 8px;
+}
+#dashboard .block-dashboard__header {
+    background-image: url('./bg_header.webp');
+    background-size: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 56px;
+    padding: 12px 24px;
+    position: relative;
+}
+#dashboard .block-dashboard__content {
+    display: flex;
+    gap: 20px;
+    padding: 21px;
+}
+
+
+#dashboard .block-work-market {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+    font-size:24px;
+}
+#dashboard .block-statistics-job {
+    width: 100%;
+   
+   
+    color:white;
+    
+}
+
+#dashboard .block-chart {
+    flex-direction: row;
+}
+#dashboard .block-chart {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+#dashboard .block-work-market {
+    display: flex;
+    gap: 12px;
+    justify-content: space-between;
+}
+#dashboard .block-work-market .item {
+    background-image: url("./bg-statistics-job-item.webp");
+    background-size: cover;
+    padding: 14px 16px;
+    width: 100%;
+}
+ .block-work-market .item2 {
+    background-image: url("./bg-statistics-job-item.webp");
+    background-size: cover;
+    padding: 14px 16px;
+    width: 100%;
+}
+#utem3 {
+    background-image: url("./bg-statistics-job-item.webp");
+    background-size: cover;
+    padding: 14px 16px;
+    width: 100%;
+}
+#dashboard .block-chart .item-chart {
+    background: rgba(33,47,63,.3);
+    border-radius: 2px;
+    padding: 14px 16px;
+    width: 100%;
+}
+#dashboard .block-chart .item-chart .header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    padding: 4px 0;
+}

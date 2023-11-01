@@ -1,0 +1,54 @@
+.company .company-header .title {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.company .company-header {
+    padding: 24px 0;
+}
+
+.company .text-center {
+    text-align: center!important;
+}
+.company .box-company {
+    background: #fff 0 0 no-repeat padding-box;
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px rgba(0,0,0,.051);
+    height: 400px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+ .company-banner {
+    height: 180px;
+    margin-bottom: 16px;
+    overflow: hidden;
+    position: relative;
+}
+.company .box-company .company-info {
+    padding: 0 16px;
+}
+ #ompany-logo2 {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    bottom: 0;
+    height: 64px;
+    left: 16px;
+    position: absolute;
+    width: 64px;
+}
+.company a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.company .box-company .company-info .h3, .company .box-company .company-info h3 {
+    line-height: 10px;
+    margin-bottom: 0;
+}
+.company .box-company .company-info .company-description {
+    color: #555;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding-top: 16px;
+}

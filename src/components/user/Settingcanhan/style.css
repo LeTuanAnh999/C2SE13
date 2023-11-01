@@ -1,0 +1,26 @@
+.box-update-info .box-need-work .box-item p {
+    color: #212f3f;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.box-update-info .box-need-work .box-item__input {
+    background: #fff;
+    border: 1px solid #e9eaec;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
+.box-update-info .box-submit button {
+    background: #00b14f;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 20px;
+    width: 100px;
+}

@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.2" cx="16" cy="16" r="16" fill="white"/>
+<circle opacity="0.2" cx="16.1045" cy="16.1045" r="9.36263" fill="#44C179"/>
+<circle cx="16" cy="16" r="8.7551" fill="#23E475"/>
+<mask id="mask0_744_995" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="7" width="18" height="18">
+<circle cx="16" cy="16" r="8.7551" fill="#4BF994"/>
+</mask>
+<g mask="url(#mask0_744_995)">
+<path d="M22.7347 5.44901L16.2245 15.551L9.93878 5.44901H22.7347Z" fill="white"/>
+<path d="M9.93879 26.3265L16.449 16.2245L22.7347 26.3265L9.93879 26.3265Z" fill="#1CCD66"/>
+</g>
+<circle cx="16" cy="16" r="6.5102" fill="#00AD48"/>
+</svg>
