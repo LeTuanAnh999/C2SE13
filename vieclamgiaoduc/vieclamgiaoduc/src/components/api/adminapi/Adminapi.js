@@ -20,7 +20,7 @@ export const postAPI = (url, data) => {
   
       return axios.post(baseURL + "/api/v1/signadmin", data, { headers });
     } catch (error) {
-      console.log("lỗi api:", error);
+      console.log("Error api:", error);
     }
   };
   export const  verify_token_admin = async (token) => {
