@@ -67,7 +67,7 @@ function Home_user() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8 col-sm-12">
-                            <h1>Tìm việc làm chất trong ngành giáo dục.</h1>
+                            <h1>Tìm việc làm  trong ngành giáo dục.</h1>
                             <div className="form-search">
                                 <div id="frm-search-job">
                                     <div className="box-search">
