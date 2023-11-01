@@ -412,7 +412,7 @@ const [fileList, setFileList] = useState([]);
     
     setFileList(fileList);
   };
-
+// tao moi truong giai lap
   const customRequest = ({ file, onSuccess }) => {
     // Trong customRequest, bạn có thể xử lý việc tải lên tệp và gọi onSuccess khi tải lên thành công.
     // Ví dụ: tải lên tệp lên máy chủ và gọi onSuccess khi hoàn thành.
